@@ -89,3 +89,5 @@ A linguagem evoluiu ao longo dos anos, sempre trazendo inovações e melhorias. 
 | **JAVA SE 8** | 18 de março de 2014        | Introdução das expressões Lambda, interfaces funcionais, métodos default e referências de métodos. |
 
 *Observação: A evolução do Java segue avançando, mantendo-se atualizado com as necessidades tecnológicas até 2022 e além.*
+
+###### ChatGPT
