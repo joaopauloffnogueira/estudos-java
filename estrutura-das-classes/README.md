@@ -14,8 +14,6 @@ Imagine que escrever código é como montar um castelo com blocos de LEGO. Cada 
 Para começar, você cria uma **classe**, que é como um molde para seus objetos. A estrutura básica é:
 
 ```java
-java
-CopiarEditar
 public class MinhaClass {
     // Seu código vai aqui
 }
@@ -39,8 +37,6 @@ public class MinhaClass {
 Toda aplicação executável em Java precisa ter um método especial chamado **main**. Esse método é como a porta principal do castelo: é por onde o programa começa a funcionar.
 
 ```java
-java
-CopiarEditar
 public class MinhaClass {
     public static void main(String[] args) {
         // Código que inicia o programa
@@ -66,8 +62,6 @@ public class MinhaClass {
 Para mostrar mensagens ao usuário, o Java usa a classe **System** com seu membro **out**. O comando de impressão é simples:
 
 ```java
-java
-CopiarEditar
 public class MinhaClass {
     public static void main(String[] args) {
         System.out.print("Olá Mundo!");
@@ -98,8 +92,6 @@ Assim como é importante nomear seus brinquedos de forma clara, a escrita do có
     - A classe deve ter o mesmo nome do arquivo.
     
     ```java
-    java
-    CopiarEditar
     // Em CalculadoraCientifica.java
     public class CalculadoraCientifica {
         // Código da classe
@@ -115,8 +107,6 @@ Assim como é importante nomear seus brinquedos de forma clara, a escrita do có
     - Se forem compostas, a primeira letra da segunda palavra é **maiúscula**.*Exemplo:*
     
     ```java
-    java
-    CopiarEditar
     var anoFabricacao = 1995;
     
     ```
@@ -125,8 +115,6 @@ Assim como é importante nomear seus brinquedos de forma clara, a escrita do có
     - Se o valor não deve mudar, use `final` e escreva em **letras maiúsculas**.*Exemplo:*
     
     ```java
-    java
-    CopiarEditar
     final String BR = "Brasil";
     
     ```
@@ -147,8 +135,6 @@ Na hora de criar nomes para variáveis, há regras a seguir – como se estivés
 **Exemplos de declarações inválidas:**
 
 ```java
-java
-CopiarEditar
 int numero&um = 1;
 int 1numero = 1;
 int numero um = 1;
@@ -159,8 +145,6 @@ int long = 1;
 **Exemplos de declarações válidas:**
 
 ```java
-java
-CopiarEditar
 int numero$um = 1;
 int numero1 = 1;
 int numeroum = 1;
@@ -179,8 +163,6 @@ int longo = 1;
 Declarar uma variável é como dizer: "Eu tenho um balde para guardar um número ou uma palavra." A estrutura básica é:
 
 ```java
-java
-CopiarEditar
 int idade = 23;
 double altura = 1.62;
 Dog spike; // Declaração sem atribuição imediata
@@ -192,8 +174,6 @@ Dog spike; // Declaração sem atribuição imediata
 Um método é como uma receita de bolo, que explica passo a passo como fazer algo. A estrutura para declarar um método é:
 
 ```java
-java
-CopiarEditar
 int somar(int numeroUm, int numeroDois) {
     // Código para somar
 }
@@ -207,8 +187,6 @@ String formatarCep(long cep) {
 ### Exemplo Completo:
 
 ```java
-java
-CopiarEditar
 public class MinhaClasse {
     public static void main(String[] args) {
         String primeiroNome = "João";
@@ -236,8 +214,6 @@ Indentação significa colocar espaços ou tabulações para organizar o código
 ### Sem Identação:
 
 ```java
-java
-CopiarEditar
 int mediaFinal = 6;
 if(mediaFinal < 6)
 System.out.println("Reprovado");
@@ -251,8 +227,6 @@ System.out.println("Aprovado");
 ### Com Identação:
 
 ```java
-java
-CopiarEditar
 int mediaFinal = 6;
 if (mediaFinal < 6)
     System.out.println("Reprovado");
@@ -290,8 +264,6 @@ Conforme seu programa (ou castelo) vai crescendo, novos arquivos são criados. P
 ### Estrutura Simples
 
 ```java
-java
-CopiarEditar
 projeto-java/
 ├── src/
 │   ├── edu/
@@ -307,8 +279,6 @@ projeto-java/
 ### Estrutura Avançada
 
 ```java
-java
-CopiarEditar
 HyperTech/
 ├── src/
 │   ├── main/
@@ -365,8 +335,6 @@ JavaBeans é um conjunto de convenções que ajuda a tornar o código mais organ
 **Exemplos não recomendados:**
 
 ```java
-java
-CopiarEditar
 double salMedio = 1500.23;
 String emails = "aluno@escola.com";
 String myName = "JOSEPH";
@@ -376,8 +344,6 @@ String myName = "JOSEPH";
 **Exemplos recomendados:**
 
 ```java
-java
-CopiarEditar
 double salarioMedio = 1500.23;
 String email = "aluno@escola.com";
 String[] emails = {"aluno@escola.com", "professor@escola.com"};
@@ -392,8 +358,6 @@ Métodos devem ser nomeados como verbos e escritos em letras minúsculas, com a 
 **Exemplos de nomes de métodos:**
 
 ```java
-java
-CopiarEditar
 somar(int n1, int n2) { }
 abrirConexao() { }
 concluirProcessamento() { }
