@@ -6,7 +6,7 @@
 
 # **#Exercício 01**
 
-Explique os principais elementos que compõem a estrutura de uma classe Java e, em especial, o papel do método `main`.
+Explique os principais elementos que compõem a estrutura de uma classe Java e, em especial, o papel do método `main`. 
 
 ```java
 public class MinhaClass {
